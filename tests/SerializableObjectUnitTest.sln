@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SerializableObjectTests", "SerializableObjectTests\SerializableObjectTests.vcxproj", "{2513AD72-39A1-4950-A0E6-A465A02BE088}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2513AD72-39A1-4950-A0E6-A465A02BE088}.Debug|x64.ActiveCfg = Debug|x64
+		{2513AD72-39A1-4950-A0E6-A465A02BE088}.Debug|x64.Build.0 = Debug|x64
+		{2513AD72-39A1-4950-A0E6-A465A02BE088}.Debug|x86.ActiveCfg = Debug|Win32
+		{2513AD72-39A1-4950-A0E6-A465A02BE088}.Debug|x86.Build.0 = Debug|Win32
+		{2513AD72-39A1-4950-A0E6-A465A02BE088}.Release|x64.ActiveCfg = Release|x64
+		{2513AD72-39A1-4950-A0E6-A465A02BE088}.Release|x64.Build.0 = Release|x64
+		{2513AD72-39A1-4950-A0E6-A465A02BE088}.Release|x86.ActiveCfg = Release|Win32
+		{2513AD72-39A1-4950-A0E6-A465A02BE088}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07C871A4-3F69-4719-851D-07BEB3D423D0}
+	EndGlobalSection
+EndGlobal
