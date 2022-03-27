@@ -27,6 +27,9 @@
     <ClCompile Include="..\..\source\Serializable.cpp">
       <Filter>Source Files\UUT</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\source\Serializer.cpp">
+      <Filter>Source Files\UUT</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -36,6 +39,9 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\source\Serializable.h">
+      <Filter>Source Files\UUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Serializer.h">
       <Filter>Source Files\UUT</Filter>
     </ClInclude>
   </ItemGroup>
