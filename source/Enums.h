@@ -1,15 +1,16 @@
 namespace serializable
 {
-
+namespace enums
+{
 enum class EFormat
 {
-    FormatCompact,
-    FormatNormal,
-    FormatPretty
+	FormatCompact,
+	FormatNormal,
+	FormatPretty
 };
 
 /// <summary>
-/// /// Additional flags
+/// Additional flags
 /// </summary>
 enum class SerializableFlags {
 	FlagNone = 0,
@@ -26,5 +27,5 @@ enum class SerializableFlags {
 	/// </summary>
 	FlagRaw = 0x4
 };
-
+}
 }
