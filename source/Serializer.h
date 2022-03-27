@@ -38,6 +38,14 @@ public:
     int Serialize(const Serializable& serializable, string& value);
     
     /// <summary>
+    /// Serializes the serializable
+    /// </summary>
+    /// <param name="serializable">intermediate object from DeSerialzer::Parse</param>
+    /// <param name="value">serialized value of serializable</param>
+    /// <returns>success = 0</returns>
+    virtual int Serialize(void* obj, string& value) = 0;
+
+    /// <summary>
     /// Serializer implementation implements this function
     /// allowing individual members to be serialized
     /// </summary>
