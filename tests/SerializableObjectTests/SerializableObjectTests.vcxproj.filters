@@ -30,6 +30,9 @@
     <ClCompile Include="..\..\source\Serializer.cpp">
       <Filter>Source Files\UUT</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\source\DeSerializer.cpp">
+      <Filter>Source Files\UUT</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -44,5 +47,17 @@
     <ClInclude Include="..\..\source\Serializer.h">
       <Filter>Source Files\UUT</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\source\DeSerializer.h">
+      <Filter>Source Files\UUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Utils.h">
+      <Filter>Source Files\UUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\ExceptionHelper.h">
+      <Filter>Source Files\UUT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
 </Project>

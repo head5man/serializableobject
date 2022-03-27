@@ -157,6 +157,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\source\DeSerializer.cpp" />
     <ClCompile Include="..\..\source\Serializable.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
@@ -183,10 +184,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\source\DeSerializer.h" />
+    <ClInclude Include="..\..\source\ExceptionHelper.h" />
     <ClInclude Include="..\..\source\Serializable.h" />
     <ClInclude Include="..\..\source\Serializer.h" />
+    <ClInclude Include="..\..\source\Utils.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="SerializableTestClasses.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
